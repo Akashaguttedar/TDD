@@ -14,13 +14,13 @@ public class product {
 
 	@Id
 	//@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	private Integer id;
 	
 	private String name;
 	
-	private int quantity;
+	private Integer quantity;
 	
-	private int version;
+	private Integer version;
 
 	
 	
@@ -33,7 +33,7 @@ public class product {
 		super();
 	}
 
-	public product(int id, String name, int quantity, int version) {
+	public product(Integer id, String name, Integer quantity, Integer version) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -41,11 +41,11 @@ public class product {
 		this.version = version;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -57,19 +57,19 @@ public class product {
 		this.name = name;
 	}
 
-	public int getQuantity() {
+	public Integer getQuantity() {
 		return quantity;
 	}
 
-	public void setQuantity(int quantity) {
+	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
 
-	public int getVersion() {
+	public Integer getVersion() {
 		return version;
 	}
 
-	public void setVersion(int version) {
+	public void setVersion(Integer version) {
 		this.version = version;
 	}
 

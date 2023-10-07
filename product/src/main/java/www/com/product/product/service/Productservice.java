@@ -37,8 +37,8 @@ public class Productservice implements productserviceinterface {
 
 	@Override
 	public boolean updated(product product) {
-		// TODO Auto-generated method stub
-		return false;
+	    product save = prepository.save(product);
+		return true;
 	}
 
 	@Override
@@ -49,8 +49,8 @@ public class Productservice implements productserviceinterface {
 
 	@Override
 	public boolean delete(Integer id) {
-		// TODO Auto-generated method stub
-		return false;
+		prepository.deleteById(id);
+		return true;
 	}
 
 	
