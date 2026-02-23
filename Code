@@ -1,0 +1,36 @@
+Create a Spring Boot + Thymeleaf based homepage for a coding platform called "AI Code Explorer".
+
+Requirements:
+
+1. Top navigation bar:
+   - Logo text: AI Code Explorer
+   - Menu items: Discuss, Interview, Log in, Sign Up
+
+2. Hero section:
+   - Title: "Explore Programming Problems"
+   - Subtitle: "Browse Java problems by category and find solutions explained in simple language."
+   - Search bar to search problems
+
+3. Left sidebar:
+   - All Java Problems
+   - Array Problems
+   - String Problems
+   - Dynamic Programming
+   - Algorithmic Puzzles
+
+4. Main content area:
+   - Show category cards:
+       - Array Problems (25 problems)
+       - String Problems (30 problems)
+       - Dynamic Programming (20 problems)
+
+5. When clicking a category (like Array Problems),
+   show list of problems:
+       - Reverse an Array
+       - Find Maximum Subarray
+       - Remove Duplicates
+       - Rotate Array
+
+Use clean modern UI with CSS.
+Do not use React.
+Use only Spring Boot + Thymeleaf + HTML + CSS.
